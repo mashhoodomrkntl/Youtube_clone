@@ -35,10 +35,19 @@
    width: 25px;
    border-radius: 50%;
    margin-right: 20px;
+   margin-top: 5px;
+   
 }
 .small-sidebar{
     width: 5%;
 }
-.small-sidebar p,h3{
+.small-sidebar p{
     display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 20px;
 }
