@@ -27,7 +27,7 @@
 }
 .subscribed-list h3{
     font-size: 13px;
-    margin: 20px 0;
+    margin: 15px 0;
     color: #5a5a5a;
 
 }
@@ -50,4 +50,13 @@
 .small-sidebar hr{
     width: 50%;
     margin-bottom: 20px;
+}
+.side-links.active img{
+padding-bottom: 2px;
+border-bottom: 3px solid red;
+}
+@media (max-width:900px){
+    .sidebar{
+        display: none;
+    }
 }

@@ -1,11 +1,14 @@
 .play-video {
     flex-basis: 69%;
 }
-video{
+iframe{
     border-radius: 10px;
+    border: none;
+    outline: none;
 }
-.play-video video {
+.play-video iframe {
     width: 100%;
+    height: 37vw;
 }
 .play-video h3 {
     margin-top: 10px;
@@ -62,8 +65,10 @@ video{
 .publisher button{
     background: red;
     color: #fff;
-    padding: 8px 30px;
+    padding: 9px 25px;
     border: 0;
+    font-size: 17px;
+    letter-spacing: 1px;
     outline: 0;
     border-radius: 4px;
     cursor: pointer ;
@@ -116,4 +121,21 @@ video{
 .comment-action span{
     margin-right: 20px;
     color: #5a5a5a;
+}
+@media (max-width:900px){
+    .play-video{
+        flex-basis: 100%;
+    }
+    .play-video iframe{
+        width: 100%;
+        height: 50vw;
+    }
+    .vid-description{
+        padding-left: 0;
+    }
+    .play-video .play-video-info span{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
 }
